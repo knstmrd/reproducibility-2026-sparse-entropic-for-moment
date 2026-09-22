@@ -16,6 +16,8 @@ The moment-method based scripts iterate over the maximum total order of conserve
 (upwinding, Lax-Friedrichs, Lax-Wendroff, and sparsity parameter values.
 
 The results can also be downloaded in HDF5 format from [Zenodo](https://doi.org/10.5281/zenodo.22768394).
+The scripts list below by default assume that the data is in the `output` directory, and that plots are written to `plots/` (needs to
+be created).
 
 ## Sod shock tube
 The Sod shock tube problem is solved a one-dimensional domain of length 1, with the left state given having number density and temperature `(n_L, T_L)=(1,0,1)` and the right state having number density and temperature `(n_R, T_R)=(1/8, 4/5)`, corresponding to a 10:1 pressure ratio and 8:1 density ratio. Both states have their velocity set to 0.
