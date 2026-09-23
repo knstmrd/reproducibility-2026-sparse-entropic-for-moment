@@ -7,10 +7,10 @@ To install the required packages, run TODO
 The data is written to subdirectories of `output/` (if `output` does not exist, it will be created).
 
 4 simulation setups are available: 
-- [`simulations/sod_dvm.jl`](Sod shock tube simulated using DVM)
-- [`simulations/sod_speqck.jl`](Sod shock tube simulated using the sparse entropic quadrature method)
-- [`simulations/couette_dvm.jl`](Couette flow simulated using DVM)
-- [`simulations/couette_speqck.jl`](Couette flow simulated using the sparse entropic quadrature method)
+- [Sod shock tube simulated using DVM (`simulations/sod_dvm.jl`)](simulations/sod_dvm.jl)
+- [Sod shock tube simulated using the sparse entropic quadrature method (`simulations/sod_speqck.jl`)](simulations/sod_speqck.jl)
+- [Couette flow simulated using DVM (`simulations/couette_dvm.jl`)](simulations/couette_dvm.jl)
+- [Couette flow simulated using the sparse entropic quadrature method (`simulations/couette_speqck.jl`)](simulations/couette_speqck.jl)
 
 The moment-method based scripts iterate over the maximum total order of conserved moments (2,4,6), the convection schemes
 (upwinding, Lax-Friedrichs, Lax-Wendroff, and sparsity parameter values.
