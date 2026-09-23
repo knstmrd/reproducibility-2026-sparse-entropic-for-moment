@@ -16,7 +16,7 @@ The moment-method based scripts iterate over the maximum total order of conserve
 (upwinding, Lax-Friedrichs, Lax-Wendroff, and sparsity parameter values.
 
 The results can also be downloaded in HDF5 format from [Zenodo](https://doi.org/10.5281/zenodo.22768394).
-The scripts list below by default assume that the data is in the `output` directory, and that plots are written to `plots/` (needs to
+The scripts listed below by default assume that the data is in the `output` directory, and that plots are written to `plots/` (needs to
 be created).
 
 ## Sod shock tube
