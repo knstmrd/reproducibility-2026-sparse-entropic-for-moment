@@ -1,0 +1,10 @@
+name = "specqkdynamic2026"
+uuid = "bca7d8cf-6331-47f0-9d2e-ce48c652efe7"
+version = "0.1.0"
+authors = ["Georgii Oblapenko <oblapenko@acom.rwth-aachen.de>"]
+
+[deps]
+SPEcQK = "e3ef1830-d461-4d9b-8b45-5011494a6685"
+
+[compat]
+SPEcQK = "0.2.0"
