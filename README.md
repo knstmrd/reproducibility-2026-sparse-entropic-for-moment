@@ -2,7 +2,8 @@
 
 The `*.jl` files in this directory produce the results from the preprint "Sparse entropic quadrature for moment equations" by G. Oblapenko, M. Torrilhon, M. Herty.
 
-To install the required packages, run TODO
+To install the required packages, run `julia --project=. -e 'using Pkg; Pkg.instantiate()'`.
+To run a specific simulation file, run `julia --project=. simulations/<simname>.jl`, where `<simname>` is the name of the simulation file.
 
 The data is written to subdirectories of `output/` (if `output` does not exist, it will be created).
 
